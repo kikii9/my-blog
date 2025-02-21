@@ -119,4 +119,14 @@ export const pagesData = {
   "v-42e96e57": () => import(/* webpackChunkName: "v-42e96e57" */"E:/other/my-blog/.temp/pages/views/vue/vue3项目.html.js").then(({ data }) => data),
   // path: /404.html
   "v-3706649a": () => import(/* webpackChunkName: "v-3706649a" */"E:/other/my-blog/.temp/pages/404.html.js").then(({ data }) => data),
+  // path: /react/react%E5%9F%BA%E7%A1%80.html
+  "v-5445352a": () => import(/* webpackChunkName: "v-5445352a" */"E:/other/my-blog/.temp/pages/react/react基础.html.js").then(({ data }) => data),
+  // path: /tools/%E5%9F%BA%E7%A1%80%E5%B7%A5%E5%85%B7.html
+  "v-044a4dfb": () => import(/* webpackChunkName: "v-044a4dfb" */"E:/other/my-blog/.temp/pages/tools/基础工具.html.js").then(({ data }) => data),
+  // path: /node/node%E5%9F%BA%E7%A1%80.html
+  "v-6b1efaab": () => import(/* webpackChunkName: "v-6b1efaab" */"E:/other/my-blog/.temp/pages/node/node基础.html.js").then(({ data }) => data),
+  // path: /Electron/electron%E5%9F%BA%E7%A1%80.html
+  "v-5114884b": () => import(/* webpackChunkName: "v-5114884b" */"E:/other/my-blog/.temp/pages/Electron/electron基础.html.js").then(({ data }) => data),
+  // path: /angular/angular%E5%9F%BA%E7%A1%80.html
+  "v-49e9ef36": () => import(/* webpackChunkName: "v-49e9ef36" */"E:/other/my-blog/.temp/pages/angular/angular基础.html.js").then(({ data }) => data),
 }

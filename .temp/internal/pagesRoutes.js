@@ -59,4 +59,9 @@ export const pagesRoutes = [
   ["v-5bd7b871","/views/vue/vue3%E5%9F%BA%E7%A1%80.html",{"title":"vue3基础"},["/views/vue/vue3基础.html","/views/vue/vue3基础.md",":md"]],
   ["v-42e96e57","/views/vue/vue3%E9%A1%B9%E7%9B%AE.html",{"title":"vue3项目"},["/views/vue/vue3项目.html","/views/vue/vue3项目.md",":md"]],
   ["v-3706649a","/404.html",{"title":""},[]],
+  ["v-5445352a","/react/react%E5%9F%BA%E7%A1%80.html",{"title":""},["/react/react基础.html","/react/react基础.md",":md"]],
+  ["v-044a4dfb","/tools/%E5%9F%BA%E7%A1%80%E5%B7%A5%E5%85%B7.html",{"title":""},["/tools/基础工具.html","/tools/基础工具.md",":md"]],
+  ["v-6b1efaab","/node/node%E5%9F%BA%E7%A1%80.html",{"title":""},["/node/node基础.html","/node/node基础.md",":md"]],
+  ["v-5114884b","/Electron/electron%E5%9F%BA%E7%A1%80.html",{"title":""},["/Electron/electron基础.html","/Electron/electron基础.md",":md"]],
+  ["v-49e9ef36","/angular/angular%E5%9F%BA%E7%A1%80.html",{"title":""},["/angular/angular基础.html","/angular/angular基础.md",":md"]],
 ]
