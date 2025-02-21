@@ -1,9 +1,5 @@
 <template><div><h1 id="vite" tabindex="-1"><a class="header-anchor" href="#vite" aria-hidden="true">#</a> vite</h1>
 <h2 id="_20240411" tabindex="-1"><a class="header-anchor" href="#_20240411" aria-hidden="true">#</a> 20240411</h2>
-<h2 id="_20240411-1" tabindex="-1"><a class="header-anchor" href="#_20240411-1" aria-hidden="true">#</a> 20240411</h2>
-<h2 id="_20240411-2" tabindex="-1"><a class="header-anchor" href="#_20240411-2" aria-hidden="true">#</a> 20240411</h2>
-<h2 id="_20240411-3" tabindex="-1"><a class="header-anchor" href="#_20240411-3" aria-hidden="true">#</a> 20240411</h2>
-<h2 id="_20240411-4" tabindex="-1"><a class="header-anchor" href="#_20240411-4" aria-hidden="true">#</a> 20240411</h2>
 <h3 id="vite分包规则" tabindex="-1"><a class="header-anchor" href="#vite分包规则" aria-hidden="true">#</a> vite分包规则</h3>
 <p>Vite 使用 Rollup 作为其底层的打包工具来进行项目的构建。在进行代码分包时，Vite 通过配置 Rollup 的 <code v-pre>output.manualChunks</code> 选项来实现自定义的分包规则。以下是关于 Vite 分包规则的基本说明：</p>
 <h3 id="output-manualchunks-配置" tabindex="-1"><a class="header-anchor" href="#output-manualchunks-配置" aria-hidden="true">#</a> <strong><code v-pre>output.manualChunks</code> 配置</strong></h3>
