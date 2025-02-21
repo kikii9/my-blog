@@ -5,8 +5,11 @@ import { join } from "path";
 import { readdirSync } from "fs";
 
 function getNav(folder) {
-  const path = path.resolve(__dirname, `../docs`,folder);
+  const path = join(__dirname,'..', folder);
   // const path = join("E:\\other\\my-blog\\docs", folder);
+
+  console.log(`Attempting to read directory: ${path}`); // 打印路径用于调试
+
   const file_list = readdirSync(path);
   const children = [];
   for (let i = 0; i < file_list.length; i++) {
