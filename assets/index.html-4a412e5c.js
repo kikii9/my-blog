@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-8daa1a0e","path":"/","title":"","lang":"en-US","frontmatter":{"home":true,"heroText":"小洪的学习日记"},"headers":[],"git":{"updatedTime":1740128285000,"contributors":[{"name":"KIKII9\\\\14913","email":"1491372173@qq.com","commits":1}]},"filePathRelative":"README.md"}');export{e as data};
