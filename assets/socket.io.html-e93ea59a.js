@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-25011caa","path":"/views/node/socket.io.html","title":"socket.io","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1740126392000,"contributors":[{"name":"kikii9","email":"92790639+kikii9@users.noreply.github.com","commits":1}]},"filePathRelative":"views/node/socket.io.md"}');export{e as data};
