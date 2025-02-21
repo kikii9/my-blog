@@ -1,4 +1,4 @@
-export const data = JSON.parse("{\"key\":\"v-49e9ef36\",\"path\":\"/angular/angular%E5%9F%BA%E7%A1%80.html\",\"title\":\"Angular\",\"lang\":\"en-US\",\"frontmatter\":{},\"headers\":[],\"git\":{\"updatedTime\":1740124478000,\"contributors\":[{\"name\":\"KIKII9\\\\14913\",\"email\":\"1491372173@qq.com\",\"commits\":1}]},\"filePathRelative\":\"angular/angular基础.md\"}")
+export const data = JSON.parse("{\"key\":\"v-49e9ef36\",\"path\":\"/angular/angular%E5%9F%BA%E7%A1%80.html\",\"title\":\"Angular\",\"lang\":\"en-US\",\"frontmatter\":{},\"headers\":[],\"git\":{\"updatedTime\":1740124857000,\"contributors\":[{\"name\":\"KIKII9\\\\14913\",\"email\":\"1491372173@qq.com\",\"commits\":2}]},\"filePathRelative\":\"angular/angular基础.md\"}")
 
 if (import.meta.webpackHot) {
   import.meta.webpackHot.accept()
