@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-044a4dfb","path":"/tools/%E5%9F%BA%E7%A1%80%E5%B7%A5%E5%85%B7.html","title":"","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1740126392000,"contributors":[{"name":"kikii9","email":"92790639+kikii9@users.noreply.github.com","commits":1}]},"filePathRelative":"tools/基础工具.md"}');export{t as data};

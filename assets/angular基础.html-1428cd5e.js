@@ -1,0 +1,1 @@
+const a=JSON.parse('{"key":"v-49e9ef36","path":"/angular/angular%E5%9F%BA%E7%A1%80.html","title":"Angular","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1740126392000,"contributors":[{"name":"kikii9","email":"92790639+kikii9@users.noreply.github.com","commits":1}]},"filePathRelative":"angular/angular基础.md"}');export{a as data};
