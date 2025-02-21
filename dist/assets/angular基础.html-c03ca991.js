@@ -1,1 +1,0 @@
-import{_ as a,o as t,c as n,a as e,b as r}from"./app-8b6d79d9.js";const c={},o=e("h1",{id:"angular",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#angular","aria-hidden":"true"},"#"),r(" Angular")],-1),s=e("p",null,"123",-1),_=[o,s];function l(d,i){return t(),n("div",null,_)}const h=a(c,[["render",l],["__file","angular基础.html.vue"]]);export{h as default};
