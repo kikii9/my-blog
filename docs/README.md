@@ -1,6 +1,6 @@
 ---
 home: true
 
-heroText: Eunie~
+heroText: Eunie~~~~
 
 ---
