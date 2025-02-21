@@ -5,7 +5,8 @@ import { join } from "path";
 import { readdirSync } from "fs";
 
 function getNav(folder) {
-  const path = join("E:\\other\\my-blog\\docs", folder);
+  const path = path.resolve(__dirname, `../docs`,folder);
+  // const path = join("E:\\other\\my-blog\\docs", folder);
   const file_list = readdirSync(path);
   const children = [];
   for (let i = 0; i < file_list.length; i++) {
