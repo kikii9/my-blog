@@ -9,9 +9,8 @@
   },
   "scripts": {
     "docs:dev": "vuepress dev docs --temp .temp",
-    "docs:build": "vuepress build docs",
-    "docs:deploy": "vuepress build docs && bash deploy.sh"
-  },
+    "docs:build": "vuepress build docs"
+   },
   "keywords": [],
   "author": "",
   "license": "ISC",
