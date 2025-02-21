@@ -24,7 +24,7 @@ function getNav(folder) {
 export default defineUserConfig({
   title: "",
   description: "This is a blog.",
-  base: "/my-blog/",
+  base: "/",
   bundler: viteBundler(),
   theme: defaultTheme({
     navbar: [
