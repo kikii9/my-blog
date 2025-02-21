@@ -63,5 +63,5 @@ export const pagesRoutes = [
   ["v-044a4dfb","/tools/%E5%9F%BA%E7%A1%80%E5%B7%A5%E5%85%B7.html",{"title":""},["/tools/基础工具.html","/tools/基础工具.md",":md"]],
   ["v-6b1efaab","/node/node%E5%9F%BA%E7%A1%80.html",{"title":""},["/node/node基础.html","/node/node基础.md",":md"]],
   ["v-5114884b","/Electron/electron%E5%9F%BA%E7%A1%80.html",{"title":""},["/Electron/electron基础.html","/Electron/electron基础.md",":md"]],
-  ["v-49e9ef36","/angular/angular%E5%9F%BA%E7%A1%80.html",{"title":""},["/angular/angular基础.html","/angular/angular基础.md",":md"]],
+  ["v-49e9ef36","/angular/angular%E5%9F%BA%E7%A1%80.html",{"title":"Angular"},["/angular/angular基础.html","/angular/angular基础.md",":md"]],
 ]
