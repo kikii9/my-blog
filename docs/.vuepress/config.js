@@ -52,6 +52,10 @@ export default defineUserConfig({
             text: "git",
             children: getNav("git"),
           },
+          {
+            text: "前端工程化",
+            children: getNav("工程化"),
+          },
         
         ],
       },
