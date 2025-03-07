@@ -76,9 +76,9 @@ export const pagesComponents = {
   // path: /project/%E6%B5%B7%E5%8D%97%E6%9F%9C%E9%9D%A2%E9%A1%B9%E7%9B%AE.html
   "v-2e2e8886": defineAsyncComponent(() => import(/* webpackChunkName: "v-2e2e8886" */"E:/other/my-blog/.temp/pages/project/海南柜面项目.html.vue")),
   // path: /project/%E6%B8%A0%E9%81%93%E4%B8%80%E4%BD%93%E5%8C%96%E5%BC%80%E5%8F%91%E8%80%85%E5%B9%B3%E5%8F%B0.html
-  "v-760c1d40": defineAsyncComponent(() => import(/* webpackChunkName: "v-760c1d40" */"E:/other/my-blog/.temp/pages/project/渠道一体化开发者平台.html.vue")),
+  "v-760c1d40": defineAsyncComponent(() => import(/* webpackChunkName: "v-760c1d40" */"E:/other/my-blog/.temp/pages/project/开发者平台.html.vue")),
   // path: /project/%E6%B8%A0%E9%81%93%E4%B8%80%E4%BD%93%E5%8C%96%E9%A1%B9%E7%9B%AE%E8%BF%81%E7%A7%BB.html
-  "v-8f095988": defineAsyncComponent(() => import(/* webpackChunkName: "v-8f095988" */"E:/other/my-blog/.temp/pages/project/渠道一体化项目迁移.html.vue")),
+  "v-8f095988": defineAsyncComponent(() => import(/* webpackChunkName: "v-8f095988" */"E:/other/my-blog/.temp/pages/project/项目迁移.html.vue")),
   // path: /python/%E5%9F%BA%E4%BA%8Eflask%E5%BC%80%E5%8F%91%E7%9A%84dify.html
   "v-11220832": defineAsyncComponent(() => import(/* webpackChunkName: "v-11220832" */"E:/other/my-blog/.temp/pages/python/基于flask开发的dify.html.vue")),
   // path: /react/react%E5%9F%BA%E7%A1%80.html

@@ -1,4 +1,4 @@
-<template><div><h1 id="渠道一体化开发者管理平台" tabindex="-1"><a class="header-anchor" href="#渠道一体化开发者管理平台" aria-hidden="true">#</a> 渠道一体化开发者管理平台</h1>
+<template><div><h1 id="开发者管理平台" tabindex="-1"><a class="header-anchor" href="#开发者管理平台" aria-hidden="true">#</a> 开发者管理平台</h1>
 <p>开发周期：20230821-20230901</p>
 <p>项目概述：后台管理平台，经典组合技术栈（vue2+elementui）</p>
 <p>难度：⭐⭐</p>

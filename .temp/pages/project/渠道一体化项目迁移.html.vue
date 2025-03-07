@@ -1,4 +1,4 @@
-<template><div><h1 id="渠道一体化项目迁移" tabindex="-1"><a class="header-anchor" href="#渠道一体化项目迁移" aria-hidden="true">#</a> 渠道一体化项目迁移</h1>
+<template><div><h1 id="项目迁移" tabindex="-1"><a class="header-anchor" href="#项目迁移" aria-hidden="true">#</a> 项目迁移</h1>
 <p>开发周期1：20230807-20230821</p>
 <p>开发周期2：20230904-20230915</p>
 <p>项目概述：后台管理平台，经典组合技术栈（vue2+elementui）</p>
