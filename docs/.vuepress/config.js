@@ -118,6 +118,16 @@ export default defineUserConfig({
           },
         ],
       },
+      {
+        text: "项目中的问题",
+        children: [
+          {
+            text: "项目",
+            children: getNav("project"),
+          },
+         
+        ],
+      },
     ],
     
   }),
