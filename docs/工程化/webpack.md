@@ -248,3 +248,87 @@ module.exports = {
 ------
 
 如果你有更具体的 Webpack 使用问题，可以随时问我！🚀
+
+
+
+
+
+# webpack
+
+## **1. Webpack 入口文件配置，多个入口如何分割**
+
+ `webpack.config.js` 中，我们可以通过 `entry` 字段配置单个或多个入口：
+
+### **单入口**
+
+```
+module.exports = {
+  entry: "./src/index.js", // 入口文件
+  output: {
+    filename: "bundle.js",
+    path: __dirname + "/dist"
+  }
+};
+```
+
+适用于普通单页应用（SPA）。
+
+### **多入口**
+
+```
+module.exports = {
+  entry: {
+    main: "./src/index.js",
+    admin: "./src/admin.js"
+  },
+  output: {
+    filename: "[name].bundle.js",
+    path: __dirname + "/dist"
+  }
+};
+```
+
+适用于**多页面应用（MPA）**，Webpack 会根据 `entry` 配置分别打包成 `main.bundle.js` 和 `admin.bundle.js`。
+
+### **代码分割（Code Splitting）**
+
+#### **（1）动态导入**
+
+Webpack 支持 `import()` 进行**按需加载**：
+
+```
+import("./module.js").then((module) => {
+  module.default();
+});
+```
+
+这种方式适合**懒加载**，比如路由动态加载。
+
+#### **（2）使用 Webpack `optimization.splitChunks`**
+
+在 `webpack.config.js` 里开启代码分割：
+
+```
+javascript复制编辑module.exports = {
+  optimization: {
+    splitChunks: {
+      chunks: "all", // 分割所有模块
+      minSize: 20000, // 最小分割体积
+      maxSize: 50000, // 最大分割体积
+      cacheGroups: {
+        vendors: {
+          test: /[\\/]node_modules[\\/]/, // 提取 node_modules 代码
+          priority: -10
+        },
+        default: {
+          minChunks: 2, // 复用 2 次以上才会被提取
+          priority: -20,
+          reuseExistingChunk: true
+        }
+      }
+    }
+  }
+};
+```
+
+这样 `node_modules` 依赖会被单独打包，提高浏览器缓存利用率。
