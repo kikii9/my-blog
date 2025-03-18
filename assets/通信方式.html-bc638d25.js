@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-32fd52ae","path":"/vue/%E9%80%9A%E4%BF%A1%E6%96%B9%E5%BC%8F.html","title":"","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1741789802000,"contributors":[{"name":"KIKII9\\\\14913","email":"1491372173@qq.com","commits":1}]},"filePathRelative":"vue/通信方式.md"}');export{e as data};
